@@ -227,7 +227,7 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_re
 
 /***/ }),
 
-/***/ 18815:
+/***/ 82718:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 37747))
@@ -774,6 +774,68 @@ function HeartDiseaseForm({ onPredictionResult }) {
                             }),
                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)(Select, {
                                 onValueChange: (value)=>handleChange("HadDiabetes", value),
+                                children: [
+                                    /*#__PURE__*/ jsx_runtime_.jsx(SelectTrigger, {
+                                        className: "w-full",
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx(SelectValue, {
+                                            placeholder: "Select an option"
+                                        })
+                                    }),
+                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)(SelectContent, {
+                                        children: [
+                                            /*#__PURE__*/ jsx_runtime_.jsx(SelectItem, {
+                                                value: "yes",
+                                                children: "Yes"
+                                            }),
+                                            /*#__PURE__*/ jsx_runtime_.jsx(SelectItem, {
+                                                value: "no",
+                                                children: "No"
+                                            })
+                                        ]
+                                    })
+                                ]
+                            })
+                        ]
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        children: [
+                            /*#__PURE__*/ jsx_runtime_.jsx(Label, {
+                                htmlFor: "HadDiabetes",
+                                children: "Have you ever been diagnosed with kidney disease by a healthcare provider?"
+                            }),
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)(Select, {
+                                onValueChange: (value)=>null,
+                                children: [
+                                    /*#__PURE__*/ jsx_runtime_.jsx(SelectTrigger, {
+                                        className: "w-full",
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx(SelectValue, {
+                                            placeholder: "Select an option"
+                                        })
+                                    }),
+                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)(SelectContent, {
+                                        children: [
+                                            /*#__PURE__*/ jsx_runtime_.jsx(SelectItem, {
+                                                value: "yes",
+                                                children: "Yes"
+                                            }),
+                                            /*#__PURE__*/ jsx_runtime_.jsx(SelectItem, {
+                                                value: "no",
+                                                children: "No"
+                                            })
+                                        ]
+                                    })
+                                ]
+                            })
+                        ]
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        children: [
+                            /*#__PURE__*/ jsx_runtime_.jsx(Label, {
+                                htmlFor: "HadDiabetes",
+                                children: "Have you ever been diagnosed with arthritis (e.g., osteoarthritis, rheumatoid arthritis)?"
+                            }),
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)(Select, {
+                                onValueChange: (value)=>null,
                                 children: [
                                     /*#__PURE__*/ jsx_runtime_.jsx(SelectTrigger, {
                                         className: "w-full",
